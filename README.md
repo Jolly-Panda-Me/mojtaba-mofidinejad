@@ -1,50 +1,46 @@
-# mojtaba-mofidinejad
+<div align="center">
 
-Bilingual (English / Persian) personal portfolio for **Mojtaba MofidiNejad — Game Designer & Producer**.
-Static site, no build step, no backend. Deploy target: `https://me.jollypanda.ir/bio/mojtabamofidinejad`.
+# 🎮 Mojtaba MofidiNejad
 
-## Status
+### Game Designer & Producer
 
-Every piece of visible text in this site is a **placeholder** and is loaded from JSON at runtime —
-nothing about Mojtaba's career, companies, dates, or projects has been hard-coded or invented.
-All `[PLACEHOLDER: ...]` strings must be replaced with verified information before this goes live.
+[![Live Site](https://img.shields.io/badge/Live-me.jollypanda.ir-2454FF?style=for-the-badge)](https://me.jollypanda.ir/bio/mojtabamofidinejad)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mojtaba-mofidinejad-23a32a237/)
+[![Email](https://img.shields.io/badge/Email-Say%20Hi-EEF3FF?style=for-the-badge&logo=gmail&logoColor=2454FF)](mailto:mojii72.3d@gmail.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8593B4?style=for-the-badge)](LICENSE)
 
-## What to edit
+</div>
 
-All content lives in two files — you never need to touch the HTML/CSS/JS to update copy:
+---
 
-- **`data/site.json`** — hero, about, experience, skills, education, contact, nav labels, SEO meta.
-  Every field has an `en` and `fa` value.
-- **`data/projects.json`** — the project grid. Add, remove, or edit project objects freely; the page
-  re-renders automatically. Filters (by genre) only appear if more than one genre exists in the data.
+Designing and shipping mobile games — from gameplay systems and level design to production and
+launch. This repository is the source for my personal portfolio: a bilingual (English / فارسی),
+single-page site built to show the work rather than talk about it.
 
-## Assets to add manually (not generated)
+## ✨ Highlights
 
-- `assets/images/profile/profile.jpg` — not currently used in the layout, reserved if a profile photo
-  is added later.
-- `assets/images/projects/*.jpg` — one image per project, matching the `image` path in `projects.json`.
-  If missing, the card automatically shows a graceful text placeholder instead of a broken image.
-- `assets/images/og/og-image.jpg` — social share image (1200×630 recommended).
+- 🌐 **Bilingual by default** — full English / Persian experience with proper RTL layout, not a
+  translated afterthought
+- 🎲 **A designer's hero** — a light CSS-only 3D scene (dice, cubes, cards) instead of a stock photo
+- ⚡ **Genuinely lightweight** — vanilla HTML/CSS/JS, no framework, no build step, self-hosted fonts
+- 🧩 **Content-driven** — every project, role, and skill lives in JSON, so the site updates without
+  touching a line of markup
+- ♿ **Built to be usable** — keyboard navigation, reduced-motion support, real focus states
 
-## Structure
+## 🕹️ Selected Work
 
-```
-index.html          — semantic single-page shell, all copy injected at runtime
-css/style.css        — design tokens + component styles
-css/responsive.css    — breakpoints (1440/1280/1024/768/480/375)
-css/animations.css    — hero entrance, floating 3D scene, scroll reveals, reduced-motion overrides
-js/i18n.js            — loads data/site.json, renders bilingual text, EN/FA switch + localStorage
-js/projects.js         — loads data/projects.json, renders filterable project grid
-js/animations.js       — IntersectionObserver reveals + hero mouse/touch parallax
-js/main.js             — boot sequence, nav, back-to-top, active-section highlighting
-data/site.json          — all site copy (bilingual)
-data/projects.json       — all project content (bilingual)
-```
+Puzzle, merge, and casual mobile titles — see the [live site](https://me.jollypanda.ir/bio/mojtabamofidinejad#projects)
+for the current lineup and details on each.
 
-## Before publishing
+## 📬 Get in Touch
 
-1. Replace every `[PLACEHOLDER: ...]` value in `data/site.json` and `data/projects.json` with
-   information verified against the LinkedIn profile (or another source you trust).
-2. Add real project images under `assets/images/projects/`.
-3. Add `assets/images/og/og-image.jpg` for social previews.
-4. Double check the JSON-LD block in `index.html` (`#ld-person`) still matches the final bio.
+- **Email:** [mojii72.3d@gmail.com](mailto:mojii72.3d@gmail.com)
+- **LinkedIn:** [mojtaba-mofidinejad](https://www.linkedin.com/in/mojtaba-mofidinejad-23a32a237/)
+- **GitHub:** [@MojtabaMofidiNezhad](https://github.com/MojtabaMofidiNezhad)
+
+---
+
+<div align="center">
+<sub>Code in this repository is MIT licensed. Personal content — name, likeness, career history,
+and project details — is not licensed for reuse.</sub>
+</div>
