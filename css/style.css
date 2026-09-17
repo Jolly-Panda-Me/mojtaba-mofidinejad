@@ -17,9 +17,11 @@
   --border: #DCE6FA;
   --white: #FFFFFF;
 
-  /* Type */
-  --font-en: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, system-ui, sans-serif;
-  --font-fa: Tahoma, "Segoe UI", "Vazirmatn", system-ui, sans-serif;
+  /* Type — self-hosted brand fonts (assets/fonts/, see css/fonts.css),
+     then a full system fallback stack so the page never breaks if a
+     font file fails to load. No remote/CDN font requests. */
+  --font-en: "Poppins", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-fa: "Vazirmatn", Tahoma, "Segoe UI", system-ui, sans-serif;
   --font-base: var(--font-en);
 
   /* Scale */
