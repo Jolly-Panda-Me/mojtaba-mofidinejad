@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "siteName": { "en": "Mojtaba MofidiNejad", "fa": "مجتبی مفیدی‌نژاد" },
+    "title": {
+      "en": "[PLACEHOLDER: SEO title — e.g. \"Mojtaba MofidiNejad — Game Designer & Producer\"]",
+      "fa": "[PLACEHOLDER: عنوان سئو — مثال: «مجتبی مفیدی‌نژاد — طراح و تهیه‌کننده بازی»]"
+    },
+    "description": {
+      "en": "[PLACEHOLDER: 150–160 character meta description summarizing Mojtaba's game design & production background]",
+      "fa": "[PLACEHOLDER: توضیحات متا در ۱۵۰ تا ۱۶۰ نویسه درباره سوابق طراحی و تهیه‌کنندگی بازی]"
+    },
+    "canonical": "https://me.jollypanda.ir/bio/mojtabamofidinejad",
+    "ogImage": "assets/images/og/og-image.jpg",
+    "keywords": {
+      "en": "Mojtaba MofidiNejad, Game Designer, Game Producer, Mobile Game Designer, Unity Game Designer, Casual Games, Hyper Casual Games, Game Production, Level Design, Gameplay Design",
+      "fa": "مجتبی مفیدی‌نژاد, طراح بازی, تهیه‌کننده بازی, طراح بازی موبایل, طراح یونیتی, بازی‌های کژوال, بازی‌های هایپرکژوال, تهیه‌کنندگی بازی, طراحی مرحله, طراحی گیم‌پلی"
+    }
+  },
+
+  "nav": {
+    "home": { "en": "Home", "fa": "خانه" },
+    "about": { "en": "About", "fa": "درباره من" },
+    "experience": { "en": "Experience", "fa": "سوابق کاری" },
+    "projects": { "en": "Projects", "fa": "پروژه‌ها" },
+    "skills": { "en": "Skills", "fa": "مهارت‌ها" },
+    "education": { "en": "Education", "fa": "تحصیلات" },
+    "contact": { "en": "Contact", "fa": "تماس با من" }
+  },
+
+  "hero": {
+    "eyebrow": { "en": "Game Designer & Producer", "fa": "طراح و تهیه‌کننده بازی" },
+    "name": "Mojtaba MofidiNejad",
+    "nameFa": "مجتبی مفیدی‌نژاد",
+    "statement": {
+      "en": "[PLACEHOLDER: one to two sentence professional statement, written strictly from verified LinkedIn information — replace before publishing]",
+      "fa": "[PLACEHOLDER: یک تا دو جمله معرفی حرفه‌ای، صرفاً بر اساس اطلاعات تأییدشده لینکدین — پیش از انتشار جایگزین شود]"
+    },
+    "ctaPrimary": { "en": "View Projects", "fa": "مشاهده پروژه‌ها" },
+    "ctaSecondary": { "en": "Let's Connect", "fa": "در تماس باشیم" },
+    "scrollHint": { "en": "Scroll to explore", "fa": "برای کاوش اسکرول کنید" }
+  },
+
+  "about": {
+    "eyebrow": { "en": "About", "fa": "درباره من" },
+    "heading": { "en": "Designing play, one system at a time", "fa": "طراحی بازی، سیستم به سیستم" },
+    "paragraphs": [
+      {
+        "en": "[PLACEHOLDER: opening paragraph — who Mojtaba is professionally, drawn strictly from verified LinkedIn summary]",
+        "fa": "[PLACEHOLDER: پاراگراف نخست — معرفی حرفه‌ای مجتبی، صرفاً بر اساس خلاصه تأییدشده لینکدین]"
+      },
+      {
+        "en": "[PLACEHOLDER: second paragraph — focus areas or approach to game design and production, from verified information only]",
+        "fa": "[PLACEHOLDER: پاراگراف دوم — حوزه‌های تمرکز یا رویکرد به طراحی و تهیه‌کنندگی بازی، صرفاً بر اساس اطلاعات تأییدشده]"
+      }
+    ],
+    "highlights": [
+      { "label": { "en": "Focus", "fa": "حوزه تمرکز" }, "value": { "en": "[PLACEHOLDER]", "fa": "[PLACEHOLDER]" } },
+      { "label": { "en": "Platforms", "fa": "پلتفرم‌ها" }, "value": { "en": "[PLACEHOLDER]", "fa": "[PLACEHOLDER]" } },
+      { "label": { "en": "Toolset", "fa": "ابزارها" }, "value": { "en": "[PLACEHOLDER]", "fa": "[PLACEHOLDER]" } }
+    ]
+  },
+
+  "experience": {
+    "eyebrow": { "en": "Experience", "fa": "سوابق کاری" },
+    "heading": { "en": "Where the games got made", "fa": "جایی که بازی‌ها ساخته شدند" },
+    "items": [
+      {
+        "id": "role-1",
+        "company": { "en": "[PLACEHOLDER: Company name]", "fa": "[PLACEHOLDER: نام شرکت]" },
+        "role": { "en": "[PLACEHOLDER: Job title]", "fa": "[PLACEHOLDER: عنوان شغلی]" },
+        "location": { "en": "[PLACEHOLDER: City, Country]", "fa": "[PLACEHOLDER: شهر، کشور]" },
+        "dates": { "en": "[PLACEHOLDER: Mon YYYY – Present]", "fa": "[PLACEHOLDER: ماه ۱۴۰۰ – اکنون]" },
+        "description": { "en": "[PLACEHOLDER: one-line summary of the role]", "fa": "[PLACEHOLDER: خلاصه یک‌خطی از نقش]" },
+        "responsibilities": [
+          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" },
+          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" }
+        ],
+        "stage": "production"
+      },
+      {
+        "id": "role-2",
+        "company": { "en": "[PLACEHOLDER: Company name]", "fa": "[PLACEHOLDER: نام شرکت]" },
+        "role": { "en": "[PLACEHOLDER: Job title]", "fa": "[PLACEHOLDER: عنوان شغلی]" },
+        "location": { "en": "[PLACEHOLDER: City, Country]", "fa": "[PLACEHOLDER: شهر، کشور]" },
+        "dates": { "en": "[PLACEHOLDER: Mon YYYY – Mon YYYY]", "fa": "[PLACEHOLDER: بازه زمانی]" },
+        "description": { "en": "[PLACEHOLDER: one-line summary of the role]", "fa": "[PLACEHOLDER: خلاصه یک‌خطی از نقش]" },
+        "responsibilities": [
+          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" },
+          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" }
+        ],
+        "stage": "design"
+      }
+    ]
+  },
+
+  "skills": {
+    "eyebrow": { "en": "Skills", "fa": "مهارت‌ها" },
+    "heading": { "en": "The toolkit behind the play", "fa": "ابزارهایی پشت تجربه بازی" },
+    "categories": [
+      {
+        "name": { "en": "Game Design", "fa": "طراحی بازی" },
+        "items": [
+          { "en": "[PLACEHOLDER: Gameplay Design]", "fa": "[PLACEHOLDER: طراحی گیم‌پلی]" },
+          { "en": "[PLACEHOLDER: Level Design]", "fa": "[PLACEHOLDER: طراحی مرحله]" },
+          { "en": "[PLACEHOLDER: Game Mechanics]", "fa": "[PLACEHOLDER: مکانیک‌های بازی]" }
+        ]
+      },
+      {
+        "name": { "en": "Production", "fa": "تهیه‌کنندگی" },
+        "items": [
+          { "en": "[PLACEHOLDER: Game Production]", "fa": "[PLACEHOLDER: تهیه‌کنندگی بازی]" },
+          { "en": "[PLACEHOLDER: Project Management]", "fa": "[PLACEHOLDER: مدیریت پروژه]" }
+        ]
+      },
+      {
+        "name": { "en": "Technology", "fa": "فناوری" },
+        "items": [
+          { "en": "[PLACEHOLDER: Unity]", "fa": "[PLACEHOLDER: یونیتی]" },
+          { "en": "[PLACEHOLDER: Game Development]", "fa": "[PLACEHOLDER: توسعه بازی]" }
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "eyebrow": { "en": "Education", "fa": "تحصیلات" },
+    "heading": { "en": "Foundations", "fa": "پایه‌ها" },
+    "items": [
+      {
+        "institution": { "en": "[PLACEHOLDER: Institution name]", "fa": "[PLACEHOLDER: نام مؤسسه]" },
+        "degree": { "en": "[PLACEHOLDER: Degree / field of study]", "fa": "[PLACEHOLDER: مدرک / رشته تحصیلی]" },
+        "dates": { "en": "[PLACEHOLDER: YYYY – YYYY]", "fa": "[PLACEHOLDER: سال – سال]" },
+        "description": { "en": "[PLACEHOLDER: optional short note]", "fa": "[PLACEHOLDER: توضیح کوتاه اختیاری]" }
+      }
+    ]
+  },
+
+  "contact": {
+    "eyebrow": { "en": "Contact", "fa": "تماس" },
+    "heading": { "en": "Let's build something playable", "fa": "بیایید یک تجربه قابل‌بازی بسازیم" },
+    "subtext": {
+      "en": "[PLACEHOLDER: short invitation to reach out — collaboration, hiring, or just talking games]",
+      "fa": "[PLACEHOLDER: دعوت کوتاه برای تماس — همکاری، استخدام یا گفت‌وگو درباره بازی]"
+    },
+    "email": "mojii72.3d@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/mojtaba-mofidinejad-23a32a237/",
+    "github": "https://github.com/MojtabaMofidiNezhad",
+    "emailLabel": { "en": "Email", "fa": "ایمیل" },
+    "linkedinLabel": { "en": "LinkedIn", "fa": "لینکدین" },
+    "githubLabel": { "en": "GitHub", "fa": "گیت‌هاب" }
+  },
+
+  "projectsSection": {
+    "eyebrow": { "en": "Selected Projects", "fa": "پروژه‌های منتخب" },
+    "heading": { "en": "Games shipped and shaped", "fa": "بازی‌هایی که ساخته و شکل داده شده‌اند" },
+    "filterAll": { "en": "All", "fa": "همه" },
+    "viewProject": { "en": "View project", "fa": "مشاهده پروژه" },
+    "imageAltFallback": { "en": "Project artwork placeholder", "fa": "جای‌نگهدار تصویر پروژه" }
+  },
+
+  "footer": {
+    "rights": { "en": "All rights reserved.", "fa": "تمامی حقوق محفوظ است." },
+    "builtWith": { "en": "Game Designer & Producer portfolio.", "fa": "نمونه‌کار طراح و تهیه‌کننده بازی." }
+  },
+
+  "ui": {
+    "skipLink": { "en": "Skip to content", "fa": "رفتن به محتوا" },
+    "menuOpen": { "en": "Open menu", "fa": "باز کردن منو" },
+    "menuClose": { "en": "Close menu", "fa": "بستن منو" },
+    "langSwitch": { "en": "فارسی", "fa": "English" },
+    "backToTop": { "en": "Back to top", "fa": "بازگشت به بالا" }
+  }
+}

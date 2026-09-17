@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": "pico-word-3d",
+      "title": { "en": "Pico Word 3D", "fa": "Pico Word 3D" },
+      "description": {
+        "en": "[PLACEHOLDER: short project description — replace with verified details]",
+        "fa": "[PLACEHOLDER: توضیح کوتاه پروژه — با اطلاعات تأییدشده جایگزین شود]"
+      },
+      "role": { "en": "[PLACEHOLDER: Role]", "fa": "[PLACEHOLDER: نقش]" },
+      "genre": ["[PLACEHOLDER: Puzzle]"],
+      "platforms": ["[PLACEHOLDER: iOS]", "[PLACEHOLDER: Android]"],
+      "technologies": ["[PLACEHOLDER: Unity]"],
+      "image": "assets/images/projects/pico-word-3d.jpg",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "guitarist",
+      "title": { "en": "Guitarist", "fa": "Guitarist" },
+      "description": {
+        "en": "[PLACEHOLDER: short project description — replace with verified details]",
+        "fa": "[PLACEHOLDER: توضیح کوتاه پروژه — با اطلاعات تأییدشده جایگزین شود]"
+      },
+      "role": { "en": "[PLACEHOLDER: Role]", "fa": "[PLACEHOLDER: نقش]" },
+      "genre": ["[PLACEHOLDER: Casual]"],
+      "platforms": ["[PLACEHOLDER: iOS]", "[PLACEHOLDER: Android]"],
+      "technologies": ["[PLACEHOLDER: Unity]"],
+      "image": "assets/images/projects/guitarist.jpg",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "garden-merge-mania",
+      "title": { "en": "Garden Merge Mania", "fa": "Garden Merge Mania" },
+      "description": {
+        "en": "[PLACEHOLDER: short project description — replace with verified details]",
+        "fa": "[PLACEHOLDER: توضیح کوتاه پروژه — با اطلاعات تأییدشده جایگزین شود]"
+      },
+      "role": { "en": "[PLACEHOLDER: Role]", "fa": "[PLACEHOLDER: نقش]" },
+      "genre": ["[PLACEHOLDER: Merge]"],
+      "platforms": ["[PLACEHOLDER: iOS]", "[PLACEHOLDER: Android]"],
+      "technologies": ["[PLACEHOLDER: Unity]"],
+      "image": "assets/images/projects/garden-merge-mania.jpg",
+      "url": "",
+      "featured": false
+    },
+    {
+      "id": "block-bloom",
+      "title": { "en": "Block Bloom", "fa": "Block Bloom" },
+      "description": {
+        "en": "[PLACEHOLDER: short project description — replace with verified details]",
+        "fa": "[PLACEHOLDER: توضیح کوتاه پروژه — با اطلاعات تأییدشده جایگزین شود]"
+      },
+      "role": { "en": "[PLACEHOLDER: Role]", "fa": "[PLACEHOLDER: نقش]" },
+      "genre": ["[PLACEHOLDER: Puzzle]"],
+      "platforms": ["[PLACEHOLDER: iOS]", "[PLACEHOLDER: Android]"],
+      "technologies": ["[PLACEHOLDER: Unity]"],
+      "image": "assets/images/projects/block-bloom.jpg",
+      "url": "",
+      "featured": false
+    }
+  ]
+}

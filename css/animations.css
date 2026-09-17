@@ -1,0 +1,93 @@
+/* =========================================================
+   Animations
+   ========================================================= */
+
+/* ---------- Hero entrance (single orchestrated sequence) ---------- */
+.hero__eyebrow, .hero__name, .hero__statement, .hero__actions, .hero__scroll-hint {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: rise .8s var(--ease) forwards;
+}
+.hero__eyebrow  { animation-delay: .05s; }
+.hero__name     { animation-delay: .15s; }
+.hero__statement{ animation-delay: .3s; }
+.hero__actions  { animation-delay: .42s; }
+.hero__scroll-hint { animation-delay: .6s; }
+
+@keyframes rise {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Floating 3D scene ---------- */
+.die--a  { animation: float-a 9s ease-in-out infinite, spin-a 26s linear infinite; }
+.die--b  { animation: float-b 7.5s ease-in-out infinite, spin-b 22s linear infinite; }
+.cube--a { animation: float-b 8.5s ease-in-out infinite, spin-a 30s linear infinite; }
+.cube--b { animation: float-a 6.5s ease-in-out infinite, spin-b 18s linear infinite; }
+.card-chip--a { animation: float-b 8s ease-in-out infinite; }
+.card-chip--b { animation: float-a 7s ease-in-out infinite; }
+
+@keyframes float-a {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -18px; }
+}
+@keyframes float-b {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 16px; }
+}
+@keyframes spin-a {
+  from { rotate: 0deg; }
+  to { rotate: 360deg; }
+}
+@keyframes spin-b {
+  from { rotate: 360deg; }
+  to { rotate: 0deg; }
+}
+.die, .cube {
+  animation-name: float-a, spin-a;
+  rotate: 0deg;
+}
+.die > *, .cube > * { transform-style: preserve-3d; }
+.die, .cube {
+  transform: rotateX(var(--rx, -18deg)) rotateY(var(--ry, 28deg));
+}
+
+/* ---------- Scroll reveal (one pass, IntersectionObserver-driven) ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .7s var(--ease), transform .7s var(--ease);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .6s var(--ease), transform .6s var(--ease);
+}
+.reveal-stagger.is-visible > * { opacity: 1; transform: translateY(0); }
+.reveal-stagger.is-visible > *:nth-child(1) { transition-delay: .02s; }
+.reveal-stagger.is-visible > *:nth-child(2) { transition-delay: .09s; }
+.reveal-stagger.is-visible > *:nth-child(3) { transition-delay: .16s; }
+.reveal-stagger.is-visible > *:nth-child(4) { transition-delay: .23s; }
+.reveal-stagger.is-visible > *:nth-child(5) { transition-delay: .3s; }
+.reveal-stagger.is-visible > *:nth-child(6) { transition-delay: .37s; }
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hero__eyebrow, .hero__name, .hero__statement, .hero__actions, .hero__scroll-hint {
+    animation: none; opacity: 1; transform: none;
+  }
+  .die, .cube, .card-chip,
+  .die--a, .die--b, .cube--a, .cube--b, .card-chip--a, .card-chip--b {
+    animation: none !important;
+  }
+  .reveal, .reveal-stagger > * {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+  * { animation-duration: .001s !important; transition-duration: .001s !important; }
+}
