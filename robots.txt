@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://me.jollypanda.ir/bio/mojtabamofidinejad/sitemap.xml
