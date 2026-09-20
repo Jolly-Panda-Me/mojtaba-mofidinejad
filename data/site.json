@@ -2,12 +2,12 @@
   "meta": {
     "siteName": { "en": "Mojtaba MofidiNejad", "fa": "مجتبی مفیدی‌نژاد" },
     "title": {
-      "en": "[PLACEHOLDER: SEO title — e.g. \"Mojtaba MofidiNejad — Game Designer & Producer\"]",
-      "fa": "[PLACEHOLDER: عنوان سئو — مثال: «مجتبی مفیدی‌نژاد — طراح و تهیه‌کننده بازی»]"
+      "en": "Mojtaba MofidiNejad — Game Designer and Producer",
+      "fa": "مجتبی مفیدی‌نژاد — طراح و تهیه‌کننده بازی"
     },
     "description": {
-      "en": "[PLACEHOLDER: 150–160 character meta description summarizing Mojtaba's game design & production background]",
-      "fa": "[PLACEHOLDER: توضیحات متا در ۱۵۰ تا ۱۶۰ نویسه درباره سوابق طراحی و تهیه‌کنندگی بازی]"
+      "en": "Game designer and producer focused on casual mobile titles; covering everything from gameplay design to production and publishing.",
+      "fa": "طراح و تهیه‌کننده بازی با تمرکز بر عناوین موبایل کژوال؛ از طراحی گیم‌پلی تا تهیه‌کنندگی و انتشار."
     },
     "canonical": "https://me.jollypanda.ir/bio/mojtabamofidinejad",
     "ogImage": "assets/images/og/og-image.jpg",
@@ -28,12 +28,12 @@
   },
 
   "hero": {
-    "eyebrow": { "en": "Game Designer & Producer", "fa": "طراح و تهیه‌کننده بازی" },
+    "eyebrow": { "en": "Game Designer, Producer & Project Manager", "fa": "طراح و تهیه‌کننده بازی و مدیر پروژه" },
     "name": "Mojtaba MofidiNejad",
     "nameFa": "مجتبی مفیدی‌نژاد",
     "statement": {
-      "en": "[PLACEHOLDER: one to two sentence professional statement, written strictly from verified LinkedIn information — replace before publishing]",
-      "fa": "[PLACEHOLDER: یک تا دو جمله معرفی حرفه‌ای، صرفاً بر اساس اطلاعات تأییدشده لینکدین — پیش از انتشار جایگزین شود]"
+      "en": "A passion for designing creative casual mobile games with engaging, interactive mechanics and for crafting worlds that players can enjoy for hours.",
+      "fa": "علاقه به طراحی بازی‌های خلاقانه کژوال برای موبایل با مکانیک‌های جذاب و تعاملی و خلق دنیاهایی که پلیرها بتوانند ساعت‌ها از آن‌ها لذت ببرند."
     },
     "ctaPrimary": { "en": "View Projects", "fa": "مشاهده پروژه‌ها" },
     "ctaSecondary": { "en": "Let's Connect", "fa": "در تماس باشیم" },
@@ -45,18 +45,18 @@
     "heading": { "en": "Designing play, one system at a time", "fa": "طراحی بازی، سیستم به سیستم" },
     "paragraphs": [
       {
-        "en": "[PLACEHOLDER: opening paragraph — who Mojtaba is professionally, drawn strictly from verified LinkedIn summary]",
-        "fa": "[PLACEHOLDER: پاراگراف نخست — معرفی حرفه‌ای مجتبی، صرفاً بر اساس خلاصه تأییدشده لینکدین]"
+        "en": "For several years, I have been active in mobile game design and production, focusing on the hyper-casual and hybrid-casual genres.",
+        "fa": "چند سالی است که در حوزه طراحی و تهیه‌کنندگی بازی‌های موبایل فعالیت می‌کنم؛ با تمرکز روی ژانرهای هایپرکژوال و هیبریدکژوال."
       },
       {
-        "en": "[PLACEHOLDER: second paragraph — focus areas or approach to game design and production, from verified information only]",
-        "fa": "[PLACEHOLDER: پاراگراف دوم — حوزه‌های تمرکز یا رویکرد به طراحی و تهیه‌کنندگی بازی، صرفاً بر اساس اطلاعات تأییدشده]"
+        "en": "My primary passion lies in creating high-quality, innovative games with engaging mechanics, as well as developing new game concepts. I also focus on coordinating between the design and development teams to bring games to the release stage.",
+        "fa": "علاقه اصلی من ساخت بازی‌های باکیفیت و خلاقانه همراه با مکانیک‌های سرگرم‌کننده و خلق ایده‌های جدید برای بازی است. همچنین روی هماهنگی بین تیم طراحی و توسعه برای رساندن بازی به مرحله انتشار تمرکز دارم."
       }
     ],
     "highlights": [
-      { "label": { "en": "Focus", "fa": "حوزه تمرکز" }, "value": { "en": "[PLACEHOLDER]", "fa": "[PLACEHOLDER]" } },
-      { "label": { "en": "Platforms", "fa": "پلتفرم‌ها" }, "value": { "en": "[PLACEHOLDER]", "fa": "[PLACEHOLDER]" } },
-      { "label": { "en": "Toolset", "fa": "ابزارها" }, "value": { "en": "[PLACEHOLDER]", "fa": "[PLACEHOLDER]" } }
+      { "label": { "en": "Focus", "fa": "حوزه تمرکز" }, "value": { "en": "Casual Mobile Games", "fa": "بازی‌های کژوال موبایل" } },
+      { "label": { "en": "Platforms", "fa": "پلتفرم‌ها" }, "value": { "en": "iOS and Android", "fa": "iOS و Android" } },
+      { "label": { "en": "Main Tool", "fa": "ابزار اصلی" }, "value": { "en": "Unity", "fa": "Unity" } }
     ]
   },
 
@@ -65,28 +65,57 @@
     "heading": { "en": "Where the games got made", "fa": "جایی که بازی‌ها ساخته شدند" },
     "items": [
       {
-        "id": "role-1",
-        "company": { "en": "[PLACEHOLDER: Company name]", "fa": "[PLACEHOLDER: نام شرکت]" },
-        "role": { "en": "[PLACEHOLDER: Job title]", "fa": "[PLACEHOLDER: عنوان شغلی]" },
-        "location": { "en": "[PLACEHOLDER: City, Country]", "fa": "[PLACEHOLDER: شهر، کشور]" },
-        "dates": { "en": "[PLACEHOLDER: Mon YYYY – Present]", "fa": "[PLACEHOLDER: ماه ۱۴۰۰ – اکنون]" },
-        "description": { "en": "[PLACEHOLDER: one-line summary of the role]", "fa": "[PLACEHOLDER: خلاصه یک‌خطی از نقش]" },
+        "id": "role-bitzooma",
+        "company": { "en": "Bitzooma Game Studio", "fa": "استودیو بازی‌سازی بیت‌زوما" },
+        "role": { "en": "Game Designer & Project Manager", "fa": "طراح بازی و مدیر پروژه" },
+        "location": { "en": "Mashhad, Iran", "fa": "مشهد، ایران" },
+        "dates": { "en": "Dec 2024 – Apr 2026", "fa": "دی ۱۴۰۳ – فروردین ۱۴۰۵" },
+        "description": {
+          "en": "Mobile game designer and project manager, also designing PC simulation games.",
+          "fa": "طراحی و مدیریت پروژه بازی‌های موبایل، همراه با طراحی بازی‌های سیمولیشن برای رایانه شخصی."
+        },
         "responsibilities": [
-          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" },
-          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" }
+          { "en": "Game design and documentation", "fa": "طراحی بازی و داکیومنت‌نویسی" },
+          { "en": "Management of PC and mobile projects", "fa": "مدیریت پروژه‌های پی‌سی و موبایل" },
+          { "en": "Designing project management structures", "fa": "طراحی ساختار مدیریت پروژه‌ها" },
+          { "en": "Facilitating faster project development", "fa": "کمک به ساخت سریع‌تر پروژه‌ها" },
+          { "en": "Helping to improve employee performance", "fa": "کمک به بهبود عملکرد کارمندان" }
         ],
         "stage": "production"
       },
       {
-        "id": "role-2",
-        "company": { "en": "[PLACEHOLDER: Company name]", "fa": "[PLACEHOLDER: نام شرکت]" },
-        "role": { "en": "[PLACEHOLDER: Job title]", "fa": "[PLACEHOLDER: عنوان شغلی]" },
-        "location": { "en": "[PLACEHOLDER: City, Country]", "fa": "[PLACEHOLDER: شهر، کشور]" },
-        "dates": { "en": "[PLACEHOLDER: Mon YYYY – Mon YYYY]", "fa": "[PLACEHOLDER: بازه زمانی]" },
-        "description": { "en": "[PLACEHOLDER: one-line summary of the role]", "fa": "[PLACEHOLDER: خلاصه یک‌خطی از نقش]" },
+        "id": "role-unbound",
+        "company": { "en": "Unbound Game Studio", "fa": "استودیو بازی‌سازی آنباند" },
+        "role": { "en": "Game Designer, QA Manager & Producer", "fa": "طراح بازی، مدیر کنترل کیفیت و تهیه‌کننده" },
+        "location": { "en": "Turkey", "fa": "ترکیه" },
+        "dates": { "en": "Mar 2022 – Dec 2024", "fa": "اسفند ۱۴۰۰ – دی ۱۴۰۳" },
+        "description": {
+          "en": "Designing hyper-casual games tailored to market needs, as well as designing casual games and managing their quality control.",
+          "fa": "طراحی بازی‌های هایپرکژوال متناسب با نیاز بازار و طراحی بازی‌های کژوال و کنترل کیفیت آن‌ها."
+        },
         "responsibilities": [
-          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" },
-          { "en": "[PLACEHOLDER: key responsibility]", "fa": "[PLACEHOLDER: مسئولیت کلیدی]" }
+          { "en": "Game design and documentation", "fa": "طراحی بازی و داکیومنت‌نویسی" },
+          { "en": "Game balancing", "fa": "بالانس بازی" },
+          { "en": "Quality control", "fa": "کنترل کیفیت" },
+          { "en": "Product design and development management", "fa": "طراحی و مدیریت ساخت محصول" }
+        ],
+        "stage": "production"
+      },
+      {
+        "id": "role-mag",
+        "company": { "en": "Mag Game Studio", "fa": "استودیو بازی‌سازی مگ" },
+        "role": { "en": "Game Designer", "fa": "طراح بازی" },
+        "location": { "en": "Turkey", "fa": "ترکیه" },
+        "dates": { "en": "Jun 2022 – Aug 2022", "fa": "خرداد ۱۴۰۱ – مرداد ۱۴۰۱" },
+        "description": {
+          "en": "Hyper-casual game design — market research and creating trendy, creative game concepts.",
+          "fa": "طراحی بازی‌های هایپرکژوال؛ تحقیق بازار و طراحی بازی‌های ترند و خلاقانه."
+        },
+        "responsibilities": [
+          { "en": "Market analysis", "fa": "تحلیل بازار" },
+          { "en": "Game design and documentation", "fa": "طراحی بازی و داکیومنت‌نویسی" },
+          { "en": "Team management for final product development", "fa": "مدیریت تیم برای ساخت محصول نهایی" },
+          { "en": "Weekly ideation for rapid game development", "fa": "ایده‌پردازی هفتگی برای ساخت سریع بازی‌ها" }
         ],
         "stage": "design"
       }
@@ -100,23 +129,31 @@
       {
         "name": { "en": "Game Design", "fa": "طراحی بازی" },
         "items": [
-          { "en": "[PLACEHOLDER: Gameplay Design]", "fa": "[PLACEHOLDER: طراحی گیم‌پلی]" },
-          { "en": "[PLACEHOLDER: Level Design]", "fa": "[PLACEHOLDER: طراحی مرحله]" },
-          { "en": "[PLACEHOLDER: Game Mechanics]", "fa": "[PLACEHOLDER: مکانیک‌های بازی]" }
+          { "en": "Gameplay Design", "fa": "طراحی گیم‌پلی" },
+          { "en": "Mechanics Design", "fa": "طراحی مکانیک‌ها" },
+          { "en": "Level Design", "fa": "طراحی مرحله" },
+          { "en": "Game Balancing", "fa": "بالانس بازی" },
+          { "en": "Documentation", "fa": "داکیومنت‌نویسی" },
+          { "en": "Game Feel", "fa": "حس و حال بازی" },
+          { "en": "Storytelling", "fa": "داستان‌سرایی" }
         ]
       },
       {
         "name": { "en": "Production", "fa": "تهیه‌کنندگی" },
         "items": [
-          { "en": "[PLACEHOLDER: Game Production]", "fa": "[PLACEHOLDER: تهیه‌کنندگی بازی]" },
-          { "en": "[PLACEHOLDER: Project Management]", "fa": "[PLACEHOLDER: مدیریت پروژه]" }
+          { "en": "Game Production", "fa": "تهیه‌کنندگی بازی" },
+          { "en": "Project Management", "fa": "مدیریت پروژه" },
+          { "en": "Team Coordination", "fa": "هماهنگی تیم" },
+          { "en": "Improving Team Productivity", "fa": "بالا بردن بازدهی تیم" }
         ]
       },
       {
         "name": { "en": "Technology", "fa": "فناوری" },
         "items": [
-          { "en": "[PLACEHOLDER: Unity]", "fa": "[PLACEHOLDER: یونیتی]" },
-          { "en": "[PLACEHOLDER: Game Development]", "fa": "[PLACEHOLDER: توسعه بازی]" }
+          { "en": "Unity", "fa": "یونیتی" },
+          { "en": "Game Development", "fa": "توسعه بازی" },
+          { "en": "Figma", "fa": "فیگما" },
+          { "en": "AI Specialist", "fa": "متخصص هوش مصنوعی" }
         ]
       }
     ]
@@ -127,10 +164,16 @@
     "heading": { "en": "Foundations", "fa": "پایه‌ها" },
     "items": [
       {
-        "institution": { "en": "[PLACEHOLDER: Institution name]", "fa": "[PLACEHOLDER: نام مؤسسه]" },
-        "degree": { "en": "[PLACEHOLDER: Degree / field of study]", "fa": "[PLACEHOLDER: مدرک / رشته تحصیلی]" },
+        "institution": { "en": "Islamic Azad University", "fa": "دانشگاه آزاد" },
+        "degree": { "en": "Bachelor of Laws", "fa": "لیسانس حقوق" },
         "dates": { "en": "[PLACEHOLDER: YYYY – YYYY]", "fa": "[PLACEHOLDER: سال – سال]" },
-        "description": { "en": "[PLACEHOLDER: optional short note]", "fa": "[PLACEHOLDER: توضیح کوتاه اختیاری]" }
+        "description": { "en": "", "fa": "" }
+      },
+      {
+        "institution": { "en": "Ferdowsi University", "fa": "دانشگاه فردوسی" },
+        "degree": { "en": "Business Management", "fa": "مدیریت بازرگانی" },
+        "dates": { "en": "[PLACEHOLDER: YYYY – YYYY]", "fa": "[PLACEHOLDER: سال – سال]" },
+        "description": { "en": "", "fa": "" }
       }
     ]
   },

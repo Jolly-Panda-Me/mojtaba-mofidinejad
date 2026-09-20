@@ -46,8 +46,8 @@
       "featured": false
     },
     {
-      "id": "block-bloom",
-      "title": { "en": "Block Bloom", "fa": "Block Bloom" },
+      "id": "destroy-the-crowd",
+      "title": { "en": "Destroy The Crowd", "fa": "Destroy The Crowd" },
       "description": {
         "en": "[PLACEHOLDER: short project description — replace with verified details]",
         "fa": "[PLACEHOLDER: توضیح کوتاه پروژه — با اطلاعات تأییدشده جایگزین شود]"
@@ -56,7 +56,7 @@
       "genre": ["[PLACEHOLDER: Puzzle]"],
       "platforms": ["[PLACEHOLDER: iOS]", "[PLACEHOLDER: Android]"],
       "technologies": ["[PLACEHOLDER: Unity]"],
-      "image": "assets/images/projects/block-bloom.jpg",
+      "image": "assets/images/projects/destroy-the-crowd.jpg",
       "url": "",
       "featured": false
     }
