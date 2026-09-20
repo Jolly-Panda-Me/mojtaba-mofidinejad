@@ -51,12 +51,12 @@ const I18N = (() => {
     document.querySelectorAll("[data-i18n-text]").forEach((el) => {
       const key = el.getAttribute("data-i18n-text");
       const val = get(key, null);
-      if (val !== null) el.textContent = val;
+      if (val === null) return;
+      el.textContent = val;
+      el.style.display = val === "" ? "none" : "";
     });
 
-    document.title = get("meta.title", document.title).startsWith("[PLACEHOLDER")
-      ? `${get("hero.name")} — ${get("hero.eyebrow")}`
-      : get("meta.title");
+    document.title = get("meta.title") || `${get("hero.name")} — ${get("hero.eyebrow")}`;
 
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute("content", get("meta.description"));
@@ -101,8 +101,9 @@ const I18N = (() => {
     if (!wrap) return;
     const items = data.experience.items || [];
     wrap.innerHTML = items
-      .map(
-        (it) => `
+      .map((it) => {
+        const desc = it.description ? it.description[lang] : "";
+        return `
       <li class="timeline-item reveal" data-stage="${it.stage || ""}">
         <div class="timeline-item__meta">
           <span class="timeline-item__role">${escapeHtml(it.role[lang])}</span>
@@ -110,12 +111,12 @@ const I18N = (() => {
           <span class="timeline-item__dates">${escapeHtml(it.dates[lang])}</span>
         </div>
         <div class="timeline-item__location">${escapeHtml(it.location[lang])}</div>
-        <p class="timeline-item__desc">${escapeHtml(it.description[lang])}</p>
+        ${desc ? `<p class="timeline-item__desc">${escapeHtml(desc)}</p>` : ""}
         <ul class="timeline-item__resp">
           ${(it.responsibilities || []).map((r) => `<li>${escapeHtml(r[lang])}</li>`).join("")}
         </ul>
-      </li>`
-      )
+      </li>`;
+      })
       .join("");
   }
 
@@ -139,17 +140,19 @@ const I18N = (() => {
     if (!wrap) return;
     const items = data.education.items || [];
     wrap.innerHTML = items
-      .map(
-        (it) => `
+      .map((it) => {
+        const dates = it.dates ? it.dates[lang] : "";
+        const desc = it.description ? it.description[lang] : "";
+        return `
       <div class="education-item reveal">
         <div class="education-item__main">
           <div class="degree">${escapeHtml(it.degree[lang])}</div>
           <div class="institution">${escapeHtml(it.institution[lang])}</div>
-          <div class="desc">${escapeHtml(it.description[lang])}</div>
+          ${desc ? `<div class="desc">${escapeHtml(desc)}</div>` : ""}
         </div>
-        <div class="education-item__dates">${escapeHtml(it.dates[lang])}</div>
-      </div>`
-      )
+        ${dates ? `<div class="education-item__dates">${escapeHtml(dates)}</div>` : ""}
+      </div>`;
+      })
       .join("");
   }
 

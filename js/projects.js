@@ -79,7 +79,7 @@ const PROJECTS = (() => {
           </div>
           <div class="project-card__body">
             <h3 class="project-card__title">${I18N.escapeHtml(title)}</h3>
-            <p class="project-card__desc">${I18N.escapeHtml(desc)}</p>
+            ${desc ? `<p class="project-card__desc">${I18N.escapeHtml(desc)}</p>` : ""}
             <div class="project-card__tags">${tags.map((t) => `<span>${I18N.escapeHtml(t)}</span>`).join("")}</div>
             ${p.url ? `<span class="project-card__link">${I18N.escapeHtml(viewLabel)} →</span>` : ""}
           </div>`;
