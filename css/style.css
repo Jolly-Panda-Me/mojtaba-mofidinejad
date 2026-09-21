@@ -217,7 +217,7 @@ button { font: inherit; background: none; border: none; cursor: pointer; color: 
   max-width: 46ch;
   margin-bottom: 2.2rem;
 }
-.hero__actions { display: flex; flex-wrap: wrap; gap: 1rem; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 1.25rem 1.5rem; }
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
@@ -269,12 +269,47 @@ button { font: inherit; background: none; border: none; cursor: pointer; color: 
   border-radius: 14px;
   box-shadow: inset 0 0 24px rgba(36,84,255,.06);
 }
-.die span:nth-child(1) { transform: translateZ(calc(var(--s, 88px) / 2)); }
-.die span:nth-child(2) { transform: rotateY(180deg) translateZ(calc(var(--s, 88px) / 2)); }
-.die span:nth-child(3) { transform: rotateY(90deg) translateZ(calc(var(--s, 88px) / 2)); background: linear-gradient(155deg, #E3ECFF, var(--surface-alt)); }
-.die span:nth-child(4) { transform: rotateY(-90deg) translateZ(calc(var(--s, 88px) / 2)); background: linear-gradient(155deg, #E3ECFF, var(--surface-alt)); }
-.die span:nth-child(5) { transform: rotateX(90deg) translateZ(calc(var(--s, 88px) / 2)); background: linear-gradient(155deg, #F3F7FF, var(--surface)); }
-.die span:nth-child(6) { transform: rotateX(-90deg) translateZ(calc(var(--s, 88px) / 2)); background: linear-gradient(155deg, #D9E5FF, var(--surface-alt)); }
+
+/* ---------- Die pips (dot patterns) ----------
+   Opposite faces sum to 7, like a real die:
+   front=1 / back=6, right=3 / left=4, top=2 / bottom=5 */
+.die span {
+  --pip: var(--primary-deep);
+  --pip-tl: radial-gradient(circle at 24% 24%, var(--pip) 0 15%, transparent 16%);
+  --pip-tr: radial-gradient(circle at 76% 24%, var(--pip) 0 15%, transparent 16%);
+  --pip-ml: radial-gradient(circle at 24% 50%, var(--pip) 0 15%, transparent 16%);
+  --pip-mr: radial-gradient(circle at 76% 50%, var(--pip) 0 15%, transparent 16%);
+  --pip-bl: radial-gradient(circle at 24% 76%, var(--pip) 0 15%, transparent 16%);
+  --pip-br: radial-gradient(circle at 76% 76%, var(--pip) 0 15%, transparent 16%);
+  --pip-c:  radial-gradient(circle at 50% 50%, var(--pip) 0 15%, transparent 16%);
+  background-repeat: no-repeat;
+}
+.die span:nth-child(1) {
+  transform: translateZ(calc(var(--s, 88px) / 2));
+  background-image: var(--pip-c), linear-gradient(155deg, var(--surface), var(--surface-alt));
+}
+.die span:nth-child(2) {
+  transform: rotateY(180deg) translateZ(calc(var(--s, 88px) / 2));
+  background-image: var(--pip-tl), var(--pip-tr), var(--pip-ml), var(--pip-mr), var(--pip-bl), var(--pip-br),
+    linear-gradient(155deg, var(--surface), var(--surface-alt));
+}
+.die span:nth-child(3) {
+  transform: rotateY(90deg) translateZ(calc(var(--s, 88px) / 2));
+  background-image: var(--pip-tl), var(--pip-c), var(--pip-br), linear-gradient(155deg, #E3ECFF, var(--surface-alt));
+}
+.die span:nth-child(4) {
+  transform: rotateY(-90deg) translateZ(calc(var(--s, 88px) / 2));
+  background-image: var(--pip-tl), var(--pip-tr), var(--pip-bl), var(--pip-br), linear-gradient(155deg, #E3ECFF, var(--surface-alt));
+}
+.die span:nth-child(5) {
+  transform: rotateX(90deg) translateZ(calc(var(--s, 88px) / 2));
+  background-image: var(--pip-tl), var(--pip-tr), linear-gradient(155deg, #F3F7FF, var(--surface));
+}
+.die span:nth-child(6) {
+  transform: rotateX(-90deg) translateZ(calc(var(--s, 88px) / 2));
+  background-image: var(--pip-tl), var(--pip-tr), var(--pip-c), var(--pip-bl), var(--pip-br),
+    linear-gradient(155deg, #D9E5FF, var(--surface-alt));
+}
 
 .cube span { border-radius: 6px; }
 .cube span:nth-child(1) { transform: translateZ(calc(var(--s, 60px) / 2)); background: linear-gradient(155deg, var(--primary), var(--primary-deep)); border-color: transparent; }
@@ -305,7 +340,29 @@ button { font: inherit; background: none; border: none; cursor: pointer; color: 
 .card-chip--b { bottom: 10%; inset-inline-end: 12%; transform: rotate(10deg); }
 
 /* ---------- About ---------- */
-.about__body { display: grid; grid-template-columns: 1.4fr 1fr; gap: clamp(2rem, 5vw, 4rem); }
+.about__body { display: grid; grid-template-columns: 240px 1.4fr 1fr; align-items: start; gap: clamp(2rem, 5vw, 4rem); }
+.about__media { display: flex; justify-content: center; }
+.about__photo-frame {
+  position: relative;
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-l);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 48px -28px rgba(10,26,60,.4);
+  background: linear-gradient(155deg, var(--primary), var(--primary-deep));
+}
+.about__photo-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.about__photo-fallback {
+  position: absolute; inset: 0;
+  display: none; align-items: center; justify-content: center;
+  font-family: var(--font-en);
+  font-size: clamp(2.4rem, 6vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: #fff;
+}
 .about__text p {
   color: var(--ink-soft);
   font-size: var(--step-0);

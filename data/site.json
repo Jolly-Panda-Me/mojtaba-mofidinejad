@@ -197,6 +197,7 @@
     "eyebrow": { "en": "Selected Projects", "fa": "پروژه‌های منتخب" },
     "heading": { "en": "Games shipped and shaped", "fa": "بازی‌هایی که ساخته و شکل داده شده‌اند" },
     "filterAll": { "en": "All", "fa": "همه" },
+    "filterGroupLabel": { "en": "Filter projects", "fa": "فیلتر پروژه‌ها" },
     "viewProject": { "en": "View project", "fa": "مشاهده پروژه" },
     "imageAltFallback": { "en": "Project artwork placeholder", "fa": "جای‌نگهدار تصویر پروژه" }
   },
@@ -204,11 +205,14 @@
   "footer": {
     "rights": { "en": "All rights reserved.", "fa": "تمامی حقوق محفوظ است." },
     "builtWith": { "en": "Game Designer & Producer portfolio.", "fa": "نمونه‌کار طراح و تهیه‌کننده بازی." },
-    "madeBy": { "en": "Built by", "fa": "ساخته‌شده توسط" }
+    "madeBy": { "en": "Built by", "fa": "ساخته‌شده توسط" },
+    "madeByName": "Jolly Panda Studio",
+    "madeByUrl": "https://jollypanda.ir"
   },
 
   "ui": {
     "skipLink": { "en": "Skip to content", "fa": "رفتن به محتوا" },
+    "navLabel": { "en": "Primary", "fa": "ناوبری اصلی" },
     "menuOpen": { "en": "Open menu", "fa": "باز کردن منو" },
     "menuClose": { "en": "Close menu", "fa": "بستن منو" },
     "langSwitch": { "en": "فارسی", "fa": "English" },

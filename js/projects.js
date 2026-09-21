@@ -25,6 +25,7 @@ const PROJECTS = (() => {
   function renderFilters() {
     const wrap = document.getElementById("project-filters");
     if (!wrap) return;
+    wrap.setAttribute("aria-label", I18N.get("projectsSection.filterGroupLabel"));
     const genres = collectGenres();
     if (genres.length <= 1) {
       wrap.innerHTML = "";

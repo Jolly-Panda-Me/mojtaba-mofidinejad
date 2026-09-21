@@ -69,7 +69,7 @@
 
 <!-- ============ NAVIGATION ============ -->
 <header class="site-header" id="site-header">
-  <nav class="nav" aria-label="Primary">
+  <nav class="nav" aria-label="Primary" id="site-nav">
     <a href="#home" class="nav__brand" data-i18n-text="hero.name">Mojtaba MofidiNejad</a>
 
     <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
@@ -143,6 +143,19 @@
         <h2 data-i18n-text="about.heading">About heading</h2>
       </div>
       <div class="about__body">
+        <div class="about__media">
+          <div class="about__photo-frame">
+            <img
+              id="about-photo"
+              src="assets/images/profile/profile.jpg"
+              alt=""
+              loading="lazy"
+              width="320" height="320"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            >
+            <div class="about__photo-fallback" aria-hidden="true">MM</div>
+          </div>
+        </div>
         <div class="about__text" id="about-paragraphs"></div>
         <ul class="about__highlights" id="about-highlights"></ul>
       </div>
@@ -167,7 +180,7 @@
         <p class="eyebrow" data-i18n-text="projectsSection.eyebrow">Selected Projects</p>
         <h2 data-i18n-text="projectsSection.heading">Projects heading</h2>
       </div>
-      <div class="project-filters" id="project-filters" role="group" aria-label="Filter projects"></div>
+      <div class="project-filters" id="project-filters" role="group"></div>
       <div class="project-grid" id="project-grid"></div>
     </div>
   </section>
@@ -211,7 +224,7 @@
   <div class="container site-footer__inner">
     <p><span id="footer-name">Mojtaba MofidiNejad</span> — <span data-i18n-text="footer.builtWith">Game Designer &amp; Producer portfolio.</span></p>
     <p><span id="footer-year"></span> <span data-i18n-text="footer.rights">All rights reserved.</span></p>
-    <p><span data-i18n-text="footer.madeBy">Built by</span> <a href="https://jollypanda.ir" target="_blank" rel="noopener">Jolly Panda Studio</a></p>
+    <p><span data-i18n-text="footer.madeBy">Built by</span> <a id="footer-madeby-link" href="https://jollypanda.ir" target="_blank" rel="noopener">Jolly Panda Studio</a></p>
   </div>
 </footer>
 

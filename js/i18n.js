@@ -64,6 +64,27 @@ const I18N = (() => {
     const heroName = document.getElementById("hero-name");
     if (heroName) heroName.textContent = lang === "fa" ? get("hero.nameFa") : get("hero.name");
 
+    const aboutPhoto = document.getElementById("about-photo");
+    if (aboutPhoto) aboutPhoto.setAttribute("alt", lang === "fa" ? get("hero.nameFa") : get("hero.name"));
+
+    const navEl = document.querySelector(".nav");
+    if (navEl) navEl.setAttribute("aria-label", get("ui.navLabel"));
+
+    const navLinkedin = document.getElementById("nav-linkedin");
+    if (navLinkedin) navLinkedin.setAttribute("aria-label", get("contact.linkedinLabel"));
+
+    const navGithub = document.getElementById("nav-github");
+    if (navGithub) navGithub.setAttribute("aria-label", get("contact.githubLabel"));
+
+    const madeByLink = document.getElementById("footer-madeby-link");
+    if (madeByLink) {
+      madeByLink.textContent = get("footer.madeByName");
+      madeByLink.setAttribute("href", get("footer.madeByUrl"));
+    }
+
+    const backToTop = document.getElementById("back-to-top");
+    if (backToTop) backToTop.setAttribute("aria-label", get("ui.backToTop"));
+
     const footerName = document.getElementById("footer-name");
     if (footerName) footerName.textContent = lang === "fa" ? get("hero.nameFa") : get("hero.name");
 
