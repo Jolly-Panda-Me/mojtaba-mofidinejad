@@ -9,6 +9,10 @@
 [![Email](https://img.shields.io/badge/Email-Say%20Hi-EEF3FF?style=for-the-badge&logo=gmail&logoColor=2454FF)](mailto:mojii72.3d@gmail.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-8593B4?style=for-the-badge)](LICENSE)
 
+<br>
+
+<img src="assets/images/readme/site-preview.png" alt="Site preview — hero section" width="100%">
+
 </div>
 
 ---
