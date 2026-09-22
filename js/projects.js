@@ -17,9 +17,9 @@ const PROJECTS = (() => {
   }
 
   function collectGenres() {
-    const set = new Set();
-    projects.forEach((p) => (p.genre || []).forEach((g) => set.add(g)));
-    return Array.from(set);
+    const map = new Map();
+    projects.forEach((p) => (p.genre || []).forEach((g) => map.set(g.id, g)));
+    return Array.from(map.values());
   }
 
   function renderFilters() {
@@ -39,7 +39,7 @@ const PROJECTS = (() => {
       .concat(
         genres.map(
           (g) =>
-            `<button data-filter="${I18N.escapeHtml(g)}" class="${activeFilter === g ? "is-active" : ""}">${I18N.escapeHtml(g)}</button>`
+            `<button data-filter="${I18N.escapeHtml(g.id)}" class="${activeFilter === g.id ? "is-active" : ""}">${I18N.escapeHtml(g[lang] || g.en)}</button>`
         )
       );
     wrap.innerHTML = buttons.join("");
@@ -59,14 +59,17 @@ const PROJECTS = (() => {
     const viewLabel = I18N.get("projectsSection.viewProject", "View project");
     const fallbackAlt = I18N.get("projectsSection.imageAltFallback", "Project artwork placeholder");
 
-    const visible = projects.filter((p) => activeFilter === "all" || (p.genre || []).includes(activeFilter));
+    const visible = projects.filter(
+      (p) => activeFilter === "all" || (p.genre || []).some((g) => g.id === activeFilter)
+    );
 
     wrap.innerHTML = visible
       .map((p) => {
         const title = p.title[lang] || p.title.en;
         const desc = p.description[lang] || p.description.en;
         const role = p.role ? p.role[lang] || p.role.en : "";
-        const tags = [role, ...(p.platforms || [])].filter(Boolean);
+        const genreLabels = (p.genre || []).map((g) => g[lang] || g.en);
+        const tags = [role, ...genreLabels, ...(p.platforms || [])].filter(Boolean);
         const cardInner = `
           <div class="project-card__media">
             <img

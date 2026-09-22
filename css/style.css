@@ -485,13 +485,8 @@ button { font: inherit; background: none; border: none; cursor: pointer; color: 
 .contact { text-align: center; max-width: 680px; }
 .contact h2 { color: #fff; }
 .contact__subtext { color: rgba(255,255,255,.7); margin-block: 1.2rem 2.2rem; font-size: var(--step-1); }
-.contact__links { 
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center; 
-  gap: 1rem; 
-  margin-top: 2.2rem;
-}.contact__links a {
+.contact__links { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+.contact__links a {
   display: inline-flex; align-items: center; gap: .6rem;
   border: 1px solid rgba(255,255,255,.2);
   padding: .85rem 1.5rem; border-radius: 999px;

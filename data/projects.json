@@ -5,9 +5,9 @@
       "title": { "en": "Pico Word 3D", "fa": "Pico Word 3D" },
       "description": { "en": "", "fa": "" },
       "role": { "en": "Game Designer", "fa": "طراح بازی" },
-      "genre": [],
+      "genre": [{ "id": "puzzle", "en": "Puzzle", "fa": "پازل" }],
       "platforms": ["Android"],
-      "technologies": [],
+      "technologies": [{ "en": "Unity", "fa": "یونیتی" }],
       "image": "assets/images/projects/pico-word-3d.jpg",
       "url": "",
       "featured": true
@@ -17,9 +17,9 @@
       "title": { "en": "Guitarist", "fa": "Guitarist" },
       "description": { "en": "", "fa": "" },
       "role": { "en": "Game Designer", "fa": "طراح بازی" },
-      "genre": [],
+      "genre": [{ "id": "music", "en": "Music", "fa": "موزیک" }],
       "platforms": ["Android"],
-      "technologies": [],
+      "technologies": [{ "en": "Unity", "fa": "یونیتی" }],
       "image": "assets/images/projects/guitarist.jpg",
       "url": "",
       "featured": true
@@ -27,13 +27,16 @@
     {
       "id": "garden-merge-mania",
       "title": { "en": "Garden Merge Mania", "fa": "Garden Merge Mania" },
-      "description": { "en": "", "fa": "" },
+      "description": {
+        "en": "A casual drop-and-merge game — combine matching plants to grow your garden before the container fills up.",
+        "fa": "یک بازی کژوال دراپ‌اند‌مرج؛ گیاهان یکسان را ترکیب کن تا باغچه رشد کند، پیش از آنکه ظرف پر شود."
+      },
       "role": { "en": "Game Designer", "fa": "طراح بازی" },
-      "genre": [],
+      "genre": [{ "id": "merge", "en": "Merge", "fa": "مرج" }],
       "platforms": ["Android"],
-      "technologies": [],
+      "technologies": [{ "en": "Unity", "fa": "یونیتی" }],
       "image": "assets/images/projects/garden-merge-mania.jpg",
-      "url": "",
+      "url": "https://www.astrocade.com/games/garden-merge-mania/01KSJ0PS3YYHQ47XVCQ5AB2XYY",
       "featured": false
     },
     {
@@ -41,9 +44,9 @@
       "title": { "en": "Destroy The Crowd", "fa": "Destroy The Crowd" },
       "description": { "en": "", "fa": "" },
       "role": { "en": "Game Designer", "fa": "طراح بازی" },
-      "genre": [],
+      "genre": [{ "id": "hyper-casual", "en": "Hyper-casual", "fa": "هایپرکژوال" }],
       "platforms": ["Android"],
-      "technologies": [],
+      "technologies": [{ "en": "Unity", "fa": "یونیتی" }],
       "image": "assets/images/projects/destroy-the-crowd.jpg",
       "url": "",
       "featured": false
